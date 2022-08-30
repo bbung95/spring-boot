@@ -1,2 +1,10 @@
-server:
-  port: 80
+server :
+  port : 80
+
+holoman:
+  name: rai
+  how-long: 200
+
+spring:
+  main:
+    allow-bean-definition-overriding : true

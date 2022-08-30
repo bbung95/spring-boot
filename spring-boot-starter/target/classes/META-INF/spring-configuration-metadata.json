@@ -1,0 +1,23 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.spring.springbootstarted.config.HolomanProperties",
+      "name": "holoman",
+      "type": "com.spring.springbootstarted.config.HolomanProperties"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.spring.springbootstarted.config.HolomanProperties",
+      "defaultValue": 0,
+      "name": "holoman.how-long",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.spring.springbootstarted.config.HolomanProperties",
+      "name": "holoman.name",
+      "type": "java.lang.String"
+    }
+  ]
+}
