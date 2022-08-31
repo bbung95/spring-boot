@@ -1,5 +1,5 @@
 server :
-  port : 80
+  port : 0
 
 holoman:
   name: rai
@@ -8,3 +8,5 @@ holoman:
 spring:
   main:
     allow-bean-definition-overriding : true
+# 웹 서버 사용하지 않기
+#    web-application-type: none
