@@ -1,0 +1,44 @@
+2022-09-01 16:27:25.562  INFO 49784 --- [main] c.s.springinit.SpringInitApplication     : Starting SpringInitApplication using Java 1.8.0_292 on ppeongppeong-iui-MacBookPro.local with PID 49784 (/Users/bbung/Documents/project/spring-boot/spring-init/target/classes started by bbung in /Users/bbung/Documents/project/spring-boot/spring-init)
+2022-09-01 16:27:25.564  INFO 49784 --- [main] c.s.springinit.SpringInitApplication     : The following 1 profile is active: "prod"
+2022-09-01 16:27:26.567  INFO 49784 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-09-01 16:27:26.574  INFO 49784 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-09-01 16:27:26.575  INFO 49784 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-01 16:27:26.645  INFO 49784 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-09-01 16:27:26.645  INFO 49784 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 998 ms
+2022-09-01 16:27:27.143  INFO 49784 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-09-01 16:27:27.156  INFO 49784 --- [main] c.s.springinit.SpringInitApplication     : Started SpringInitApplication in 1.945 seconds (JVM running for 2.423)
+2022-09-01 16:28:27.371  INFO 49805 --- [main] c.s.springinit.SpringInitApplication     : Starting SpringInitApplication using Java 1.8.0_292 on ppeongppeong-iui-MacBookPro.local with PID 49805 (/Users/bbung/Documents/project/spring-boot/spring-init/target/classes started by bbung in /Users/bbung/Documents/project/spring-boot/spring-init)
+2022-09-01 16:28:27.373  INFO 49805 --- [main] c.s.springinit.SpringInitApplication     : The following 1 profile is active: "prod"
+2022-09-01 16:28:28.330  INFO 49805 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-09-01 16:28:28.337  INFO 49805 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-09-01 16:28:28.337  INFO 49805 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-01 16:28:28.404  INFO 49805 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-09-01 16:28:28.404  INFO 49805 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 954 ms
+2022-09-01 16:28:28.941  INFO 49805 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-09-01 16:28:28.953  INFO 49805 --- [main] c.s.springinit.SpringInitApplication     : Started SpringInitApplication in 1.929 seconds (JVM running for 2.405)
+2022-09-01 16:29:42.578  INFO 49824 --- [main] c.s.springinit.SpringInitApplication     : Starting SpringInitApplication using Java 1.8.0_292 on ppeongppeong-iui-MacBookPro.local with PID 49824 (/Users/bbung/Documents/project/spring-boot/spring-init/target/classes started by bbung in /Users/bbung/Documents/project/spring-boot/spring-init)
+2022-09-01 16:29:42.580 DEBUG 49824 --- [main] c.s.springinit.SpringInitApplication     : Running with Spring Boot v2.7.3, Spring v5.3.22
+2022-09-01 16:29:42.581  INFO 49824 --- [main] c.s.springinit.SpringInitApplication     : The following 1 profile is active: "prod"
+2022-09-01 16:29:43.557  INFO 49824 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-09-01 16:29:43.563  INFO 49824 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-09-01 16:29:43.563  INFO 49824 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-01 16:29:43.635  INFO 49824 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-09-01 16:29:43.635  INFO 49824 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 973 ms
+2022-09-01 16:29:44.142  INFO 49824 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-09-01 16:29:44.155  INFO 49824 --- [main] c.s.springinit.SpringInitApplication     : Started SpringInitApplication in 1.933 seconds (JVM running for 2.4)
+2022-09-01 16:31:16.496  INFO 49844 --- [main] c.s.springinit.SpringInitApplication     : Starting SpringInitApplication using Java 1.8.0_292 on ppeongppeong-iui-MacBookPro.local with PID 49844 (/Users/bbung/Documents/project/spring-boot/spring-init/target/classes started by bbung in /Users/bbung/Documents/project/spring-boot/spring-init)
+2022-09-01 16:31:16.499 DEBUG 49844 --- [main] c.s.springinit.SpringInitApplication     : Running with Spring Boot v2.7.3, Spring v5.3.22
+2022-09-01 16:31:16.500  INFO 49844 --- [main] c.s.springinit.SpringInitApplication     : The following 1 profile is active: "prod"
+2022-09-01 16:31:17.473  INFO 49844 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-09-01 16:31:17.479  INFO 49844 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-09-01 16:31:17.479  INFO 49844 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-01 16:31:17.540  INFO 49844 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-09-01 16:31:17.541  INFO 49844 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 962 ms
+2022-09-01 16:31:18.079  INFO 49844 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-09-01 16:31:18.091  INFO 49844 --- [main] c.s.springinit.SpringInitApplication     : Started SpringInitApplication in 1.951 seconds (JVM running for 2.424)
+2022-09-01 16:31:18.094  INFO 49844 --- [main] com.spring.springinit.SampleRunner       : =========================
+2022-09-01 16:31:18.094  INFO 49844 --- [main] com.spring.springinit.SampleRunner       : name = rai
+2022-09-01 16:31:18.094  INFO 49844 --- [main] com.spring.springinit.SampleRunner       : name = 64
+2022-09-01 16:31:18.094  INFO 49844 --- [main] com.spring.springinit.SampleRunner       : name = rai bbung
+2022-09-01 16:31:18.094  INFO 49844 --- [main] com.spring.springinit.SampleRunner       : name = PT25S
+2022-09-01 16:31:18.095  INFO 49844 --- [main] com.spring.springinit.SampleRunner       : =========================
