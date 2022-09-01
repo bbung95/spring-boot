@@ -19,12 +19,12 @@ public class SampleRunner implements ApplicationRunner {
     @Override
     public void run(ApplicationArguments args) throws Exception {
 
-        logger.info("=========================");
-        logger.info("name = " + sampleProperties.getName());
-        logger.info("name = " + sampleProperties.getAge());
-        logger.info("name = " + sampleProperties.getFullname());
-        logger.info("name = " + sampleProperties.getSessionTime());
-        logger.info("=========================");
+        logger.debug("=========================");
+        logger.debug("name = " + sampleProperties.getName());
+        logger.debug("name = " + sampleProperties.getAge());
+        logger.debug("name = " + sampleProperties.getFullname());
+        logger.debug("name = " + sampleProperties.getSessionTime());
+        logger.debug("=========================");
 
     }
 }
