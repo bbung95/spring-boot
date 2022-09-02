@@ -22,4 +22,24 @@ public class UserController {
         return user;
     }
 
+    @GetMapping("error")
+    @ResponseBody
+    public String getError(){
+
+        throw new CustomError();
+    }
+
+    @ExceptionHandler(CustomError.class)
+    @ResponseBody
+    public ErrorMessage errorMessage(CustomError customError){
+
+        ErrorMessage message = new ErrorMessage();
+        message.setMessage("에러 발생");
+        message.setReason(customError.getMessage());
+
+        System.out.println("message = " + message);
+
+        return message;
+    }
+
 }
