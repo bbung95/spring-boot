@@ -1,0 +1,8 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/springboot
+    username: bbung
+    password: bbung1234!
+  jpa:
+    hibernate:
+      ddl-auto:
