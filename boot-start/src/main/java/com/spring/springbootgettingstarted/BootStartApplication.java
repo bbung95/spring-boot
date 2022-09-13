@@ -1,10 +1,8 @@
 package com.spring.springbootgettingstarted;
 
-//import org.apache.catalina.Context;
-//import org.apache.catalina.LifecycleException;
-//import org.apache.catalina.startup.Tomcat;
-import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.apache.catalina.Context;
+import org.apache.catalina.LifecycleException;
+import org.apache.catalina.startup.Tomcat;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
@@ -13,24 +11,23 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.io.PrintWriter;
 
-@SpringBootApplication
 public class BootStartApplication {
 
-	public static void main(String[] args) {
+//	public static void main(String[] args) {
+////
+////		SpringApplication application = new SpringApplication(BootStartApplication.class);
+////		application.setWebApplicationType(WebApplicationType.NONE);
+////		application.run(args);
 //
-//		SpringApplication application = new SpringApplication(BootStartApplication.class);
-//		application.setWebApplicationType(WebApplicationType.NONE);
-//		application.run(args);
+//		SpringApplication.run(BootStartApplication.class, args);
+//	}
 
-		SpringApplication.run(BootStartApplication.class, args);
-	}
+	public static void main(String[] args) throws LifecycleException {
+		Tomcat tomcat = new Tomcat();
+		tomcat.setPort(8080);
 
-//	public static void main(String[] args) throws LifecycleException {
-//		Tomcat tomcat = new Tomcat();
-//		tomcat.setPort(8080);
-//
-//		Context context = tomcat.addContext("/", "/");
-//
+		Context context = tomcat.addContext("/", "/");
+
 //		HttpServlet servlet = new HttpServlet() {
 //			@Override
 //			protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
@@ -45,7 +42,9 @@ public class BootStartApplication {
 //		tomcat.addServlet("/", servletName, servlet);
 //		context.addServletMappingDecoded("/hello", servletName);
 //
-//		tomcat.start();
-//		tomcat.getServer().await();
-//	}
+//		System.out.println("servletName = " + servletName);
+
+		tomcat.start();
+		tomcat.getServer().await();
+	}
 }
