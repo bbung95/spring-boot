@@ -8,14 +8,13 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.io.PrintWriter;
 
-public class HelloServlet implements TestServlet {
+public class HelloServlet extends TestServlet {
 
     @Override
     public void excute(HttpServletRequest request, HttpServletResponse response) throws IOException {
 
-        PrintWriter writer = response.getWriter();
-        writer.println("<h1>hello</h1>");
-        writer.println("<div><a href=\"/\">index</a></div>");
+
+        setPath("forward:/forward.jsp");
     }
 
 }

@@ -8,5 +8,6 @@
 <h1>
     forward
 </h1>
+<a href="/">index</a>
 </body>
 </html>

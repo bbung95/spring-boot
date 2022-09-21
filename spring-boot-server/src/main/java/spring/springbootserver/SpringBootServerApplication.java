@@ -15,7 +15,7 @@ import spring.springbootserver.server.TomcatServer;
 public class SpringBootServerApplication {
 
 //	public static void main(String[] args) {
-//			SpringApplication.run(SpringBootServerApplication.class, args);
+//		SpringApplication.run(SpringBootServerApplication.class, args);
 //	}
 
     public static void main(String[] args) throws LifecycleException, InterruptedException {
